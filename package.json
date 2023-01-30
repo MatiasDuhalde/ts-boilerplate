@@ -6,6 +6,7 @@
   "scripts": {
     "start": "tsc && node dist/index.js",
     "lint": "eslint . --ext .ts",
+    "format": "prettier --write src .eslintrc.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,8 @@
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.3",
     "typescript": "^4.9.4"
   }
 }
