@@ -1,5 +1,5 @@
 const main = () => {
-  console.log('Bonjour tout le monde !');
+  console.log('Konnichiwa!');
 };
 
 main();
