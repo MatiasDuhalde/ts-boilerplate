@@ -16,4 +16,5 @@ module.exports = {
   env: {
     node: true,
   },
+  ignorePatterns: ['**/dist/**', '**/node_modules/**'],
 };
